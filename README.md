@@ -10,11 +10,14 @@ Desiciones
 - Bajo acoplamiento
 - Escalabilidad entre composición de servicios.
 
+Estilo de arquitectura
+
+Arquitectura orientada a servicios
+
 Estilo de servicios
 
 Basado sobre API/Rest
 
-Client Dispatcher Server
 
 Patrones
 
