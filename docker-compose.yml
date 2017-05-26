@@ -1,0 +1,17 @@
+version: '3'
+services:
+  taller2:
+    build: "taller2/."
+    ports:
+      - "9901:8080"
+    networks:
+      - "service-compose-net"
+  interface:
+    build: "taller2_interface/."
+    ports:
+      - "9900:8080"
+    networks:
+      - "service-compose-net"
+networks:
+  service-compose-net:
+    driver: bridge

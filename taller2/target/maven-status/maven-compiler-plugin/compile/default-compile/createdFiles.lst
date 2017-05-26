@@ -1,0 +1,4 @@
+co/edu/javeriana/modelado/taller2/config/ApplicationConfig.class
+co/edu/javeriana/modelado/taller2/boundary/RoutingEndpoint.class
+co/edu/javeriana/modelado/taller2/boundary/HelloWorldEndpoint.class
+co/edu/javeriana/modelado/taller2/entity/Service.class

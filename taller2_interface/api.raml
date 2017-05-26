@@ -1,0 +1,37 @@
+#%RAML 1.0
+title: Interfaz única
+mediaType: application/json
+baseUri: http://www.paguecomodo.co/servicios/pagos/
+version: v1
+
+
+/pagos/:
+   get:
+       description: Return the amount of the payment consulted
+       queryParameters:
+           paymentId: string
+       responses:
+           200:
+               body:
+                  application/json:
+                           properties:
+                             response: Response
+           404:
+               description: La factura no existe
+   post:
+       description: Allow to pay
+       body:
+          application/json:
+            properties:
+              request: Request
+       responses:
+           200:
+               body:
+                   application/json:
+                     properties:
+                        response: Response
+           404:
+               body:
+                   application/json:
+                     properties:
+                       response: Response

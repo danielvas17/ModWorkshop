@@ -1,0 +1,20 @@
+{
+    "1": {
+        "code": "1",
+        "url": "localhost",
+        "port": "9090",
+        "endpoint": "servicios/pagos/v1/payments/",
+        "type": {
+            "serviceType": "rest"
+        }
+    },
+    "2": {
+        "code": "2",
+        "url": "localhost",
+        "port": "7070",
+        "endpoint": "w1-soap-svr/PagosServiceService",
+        "type": {
+            "serviceType": "soap"
+        }
+    }
+}

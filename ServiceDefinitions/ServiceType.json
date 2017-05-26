@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "ServiceType",
+    "description": "Kind of service is",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/ServiceType.json",
+    "properties": {
+        "serviceType": { "enum": ["soap", "rest"] }
+    },
+    "required": ["serviceType"]
+}

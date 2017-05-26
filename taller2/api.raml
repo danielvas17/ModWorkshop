@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: Router service
+mediaType: application/json
+baseUri: http://www.paguecomodo.co/servicios/
+version: v1
+
+
+/enrutador/{serviceId}:
+   get:
+       description: Return the service with id serviceId
+       responses:
+           200:
+               body:
+                  application/json:
+                           properties:
+                             service: Service
+           404:
+               description: The service doesn't exist

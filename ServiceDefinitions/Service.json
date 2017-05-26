@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Service",
+    "description": "Representation of a payment service",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/Service.json",
+    "properties": {
+        "code": { "type": "number" },
+        "url": { "type": "string" },
+        "port": { "type": "number" },
+        "endpoint": { "type": "string" },
+        "type": { "$ref": "http://javeriana.edu.co/aes/modyval/ServiceType.json" }
+    },
+    "required": ["code", "url", "port", "endpoint", "type"]
+}

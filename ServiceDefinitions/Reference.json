@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Reference",
+    "description": "Representation of a payment reference",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/Reference.json",
+    "properties": {
+        "referenceNumber": { "type": "string" },
+    },
+    "required": ["referenceNumber"]
+}

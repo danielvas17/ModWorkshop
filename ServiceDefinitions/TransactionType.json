@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "TransactionType",
+    "description": "Kind of a transaction could be",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/TransactionType.json",
+    "properties": {
+        "transaction": { "enum": ["consultar", "pagar", "compensar"] }
+    },
+    "required": ["transaction"]
+}

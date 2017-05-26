@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Amount",
+    "description": "Representation of a monetary payment",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/Amount.json",
+    "properties": {
+        "total": { "type": "number" },
+    },
+    "required": ["total"]
+}

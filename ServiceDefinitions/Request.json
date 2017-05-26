@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Request",
+    "description": "Representation of a request",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/Transaction.json",
+    "properties": {
+        "paymentId": { "type": "string" },
+        "amount": { "$ref": "http://javeriana.edu.co/aes/modyval/Amount.json" },
+    },
+    "required": ["paymentId", "amount"]
+}

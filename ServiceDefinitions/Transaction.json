@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Transaction",
+    "description": "Representation of a transaction",
+    "type": "object",
+    "id": "http://javeriana.edu.co/aes/modyval/Transaction.json",
+    "properties": {
+        "service": { "$ref": "http://javeriana.edu.co/aes/modyval/Service.json" },
+        "reference": { "$ref": "http://javeriana.edu.co/aes/modyval/Reference.json" },
+        "amount": { "$ref": "http://javeriana.edu.co/aes/modyval/Amount.json" },
+        "type": { "$ref": "http://javeriana.edu.co/aes/modyval/TransactionType.json" }
+    },
+    "required": ["service", "reference", "amount", "type"]
+}
