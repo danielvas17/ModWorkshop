@@ -12,6 +12,12 @@ services:
       - "9900:8080"
     networks:
       - "service-compose-net"
+  router:
+    build: "taller2_router/."
+    ports:
+      - "9902:8080"
+    networks:
+      - "service-compose-net"
 networks:
   service-compose-net:
     driver: bridge
